@@ -1,0 +1,8 @@
+- Info:
+- The compiler of vb.net can be encountred in "C:\Windows\Microsoft.NET\Framework64". Not is necessary install others packages (Reference: https://stackoverflow.com/questions/7215273/is-there-a-vb-net-compiler-to-download)
+
+- Ansers:
+- What is hystory of VB.NET and of others languages of Microsoft?
+- VBC is compiler default of VB.NET? How to work VBC? (Reference: https://www.oreilly.com/library/view/programming-visual-basic/0596000936/ch01s03.html)
+- What is debugger default of VB.NET? How to this debugger work?
+- Whats is tookit GUI default of VB.NET? How to this tookit work?
