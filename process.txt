@@ -1,8 +1,27 @@
 - Info:
 - The compiler of vb.net can be encountred in "C:\Windows\Microsoft.NET\Framework64". Not is necessary install others packages (Reference: https://stackoverflow.com/questions/7215273/is-there-a-vb-net-compiler-to-download)
 
-- Ansers:
+- Doubts:
 - What is hystory of VB.NET and of others languages of Microsoft?
 - VBC is compiler default of VB.NET? How to work VBC? (Reference: https://www.oreilly.com/library/view/programming-visual-basic/0596000936/ch01s03.html)
 - What is debugger default of VB.NET? How to this debugger work?
 - Whats is tookit GUI default of VB.NET? How to this tookit work?
+
+- Framework dotnet: contains a group of libraries and a strutucture predefined of project for make softwares in various environments (Desktop, Mobile e Web). In the same project can be utilited various languages of programing (interoperability), because in the process of compilation is utilited the MSIL
+
+- CLR: It is the machine virtual that interprete a program in environment .NET Framework
+
+- Garbage collection: It is a component of CLR that managentment the utilization of memory
+
+Process of compilation in environment .NET:
+- Step 1: The compiler (VBC) transform the source code (*.VB) in Microsoft Intermediate Language MSIL (*.exe or *.dll)
+- Step 2: In time of execution of the program the JIT (Just In Time) compile the binaries necessaries for execution of tasks requireds. The JIT is a component of CLR. It is responsible for permit the utility of applications .NET in various operational systems
+
+Assembly: 
+- Language interpretate by computer
+- Built in step 1 of process of compilation
+- Your extensions are *.exe and *.dll
+- Assembly Private: Code particular of an application. Don't permit versioning
+- Assembly Shared: Code can be utilized by various applications. Permits versioning
+
+GAC (global assembly cache): It maintains a cache of all the assemblies which can be accessed or in other words shared. It is a directory default of libraries assemblies. It can be encountred in "%windir%\Microsoft.NET\assembly"
